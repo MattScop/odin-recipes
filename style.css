@@ -18,6 +18,14 @@ body {
 
 
 /* GENERAL STYLE */
+.recipe-title {
+    font-size: 52px;
+}
+
+.list-h4 {
+    margin-bottom: 0px;
+}
+
 .go-back-button {
     background-color: rgb(230, 19, 19);
     padding: 10px;
@@ -31,22 +39,3 @@ body {
     background-color: rgb(138, 11, 11);
 }
 /* END GENERAL STYLE */
-
-
-/* STYLE LASAGNA RECIPE */
-.lasagna-title {
-    font-size: 52px;
-}
-
-.lasagna-recipe {
-    margin-top: 50px; margin-bottom: 50px;
-    padding: 25px;
-    background-color: rgb(255, 255, 179);
-    border-radius: 15px;
-    width: fit-content;
-}
-
-.lasagna-recipe.steps {
-    background-color: azure;
-}
-/* END STYLE LASAGNA RECIPE */

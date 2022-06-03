@@ -1,8 +1,10 @@
 /* STYLE INDEX*/
 body {
     background-image: url(img/background-index.jpg);
+    background-color: #e0e1e3;
     background-size: cover;
-    margin: 5vw
+    margin: 5vw;
+    font-family: "Arial",sans-serif;
 }
 
 .title-one {
@@ -12,4 +14,39 @@ body {
 .unordered-one {
     font-size: 24px;    
 }
-/*END STYLE INDEX */
+/* END STYLE INDEX */
+
+
+/* GENERAL STYLE */
+.go-back-button {
+    background-color: rgb(230, 19, 19);
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: 700;
+    color: white;
+    transition: 0.25s ease-in-out;
+}
+
+.go-back-button:hover {
+    background-color: rgb(138, 11, 11);
+}
+/* END GENERAL STYLE */
+
+
+/* STYLE LASAGNA RECIPE */
+.lasagna-title {
+    font-size: 52px;
+}
+
+.lasagna-recipe {
+    margin-top: 50px; margin-bottom: 50px;
+    padding: 25px;
+    background-color: rgb(255, 255, 179);
+    border-radius: 15px;
+    width: fit-content;
+}
+
+.lasagna-recipe.steps {
+    background-color: azure;
+}
+/* END STYLE LASAGNA RECIPE */

@@ -1,0 +1,15 @@
+/* STYLE INDEX*/
+body {
+    background-image: url(img/background-index.jpg);
+    background-size: cover;
+    margin: 5vw
+}
+
+.title-one {
+    font-size: 52px;
+}
+
+.unordered-one {
+    font-size: 24px;    
+}
+/*END STYLE INDEX */
